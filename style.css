@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .main-cont{
+    padding: 2rem;
+  }
+  .main-cont .top-head{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .sub-head{
+    text-align: center;
+    font-size:2rem;
+  }
+  .memories-cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap:1rem;
+  }
+  .topic-cont{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .video-cont{
+    height: 100%;
+    width: 100%;
+  }
+  p{
+    text-align: center;
+  }
+  
